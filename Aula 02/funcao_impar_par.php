@@ -52,6 +52,11 @@ function podeDirigir($fulano){
 	}
 };
 
-echo retornaNumeroMaior(8, 8);
 
+function soma ($a = 0, $b = 0){//parametro opcional
+	return $a + $b;
+
+}
+
+echo soma("oi como esta vc", 9.8);
 
